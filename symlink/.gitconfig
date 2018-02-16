@@ -1,9 +1,9 @@
 [user]
-  name = Ben Diuguid
-  email = bendiuguid@gmail.com
+  name = Mitchell Irvin
+  email = mitchell.k.irvin@gmail.com
 
 [github]
-  user = bendiuguid
+  user = mitchellirvin
 
 [core]
   excludesfile = ~/.gitignore_global
@@ -57,17 +57,7 @@
 
 [mergetool]
   prompt = false
-
-[diff]
-  tool = webstorm
-[difftool "webstorm"]
-  cmd = /usr/local/bin/wstorm diff \"$LOCAL\" \"$REMOTE\"
-
-[merge]
-  tool = webstorm
-[mergetool "webstorm"]
-  cmd = /usr/local/bin/wstorm merge \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
-
+  
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
