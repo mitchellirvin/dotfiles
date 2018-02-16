@@ -20,7 +20,7 @@ Copy and Paste into terminal: `cd ~/ && git clone https://github.com/mitchellirv
 ## File System
 
     ├── bin
-    │   └── dotfiles                - Executable placed on path to provide dotfiles update/editting shortcuts
+    │   └── dotfiles                - Executable placed on path to provide dotfiles update/editing shortcuts
     │
     ├── install
     │   ├── atom.sh                 - Uses apm to install atom packages/themes
@@ -29,7 +29,7 @@ Copy and Paste into terminal: `cd ~/ && git clone https://github.com/mitchellirv
     │   ├── brew.sh                 - Installs command line apps
     │   ├── mac.sh                  - Installs mac applications through the App Store
     │   ├── npm.sh                  - Globally installs useful npm packages
-    │   ├── python.sh               - Installs useful python packages
+    │   └── python.sh               - Installs useful python packages
     │
     ├── macOS
     │   ├── defaults.dock.sh        - Sets the Dock up
