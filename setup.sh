@@ -13,6 +13,7 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # symlink anything in the symlink folder to the user ~/ directory
 ln -sfv "$DOTFILES_DIR/symlink/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/symlink/.gitignore_global" ~
+ln -sfv "$DOTFILES_DIR/symlink/.hyper.js" ~
 
 # Install all the things, order matters.
 source "$DOTFILES_DIR/install/brew.sh"
