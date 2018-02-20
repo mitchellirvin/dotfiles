@@ -38,7 +38,7 @@ Copy and Paste into terminal: `cd ~/ && git clone https://github.com/mitchellirv
     ├── symlink
     │   ├── .eslintrc.js            - Global eslint config
     │   ├── .gitconfig              - Global git config, where user info and git alias's live
-    │   └── .gitignore_global       - Global gitignore
+    │   ├── .gitignore_global       - Global gitignore
     │   └── .hyper.js               - hyper.app config
     │
     └── system
