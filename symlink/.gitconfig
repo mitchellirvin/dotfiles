@@ -1,6 +1,7 @@
 [user]
   name = Mitchell Irvin
   email = mitchell.k.irvin@gmail.com
+	password = Mi08091994
 
 [github]
   user = mitchellirvin
@@ -8,12 +9,11 @@
 [core]
   excludesfile = ~/.gitignore_global
   editor = vim
-  pager = diff-highlight | diff-so-fancy | less --tabs=4 -RFX
   filemode = false
   trustctime = false
 
 [alias]
-  ss = status
+  s = status
   co = checkout
   undo = reset HEAD~1 --mixed # Resets the previous commit, but keeps all the changes from that commit in the working directory.
   amend = commit -a --amend # Modify the previous commit
@@ -21,10 +21,8 @@
   branches = branch -a
   remotes = remote -v
   prune = fetch --prune
-
-[pager]
-	diff = diff-so-fancy | less --tabs=4 -RFX
-	show = diff-so-fancy | less --tabs=4 -RFX
+	br = branch
+	cm = commit
 
 [color]
   ui = always
@@ -57,7 +55,7 @@
 
 [mergetool]
   prompt = false
-  
+
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f

@@ -7,15 +7,8 @@ brew tap caskroom/versions
 
 # Install packages
 apps=(
-  android-file-transfer
-  android-studio
   appcleaner
   atom
-  blisk
-  brave
-  caprine
-  charles
-  cyberduck
   deco
   discord
   docker
@@ -25,16 +18,8 @@ apps=(
   google-chrome
   google-chrome-canary
   google-drive
-  google-featured-photos
-  google-trends
-  hyper
-  imageoptim
-  insomnia
   iterm2
   java
-  opera
-  opera-neon
-  origami-studio
   postman
   quik
   robo-3t
@@ -43,13 +28,6 @@ apps=(
   skype
   slack
   sublime-text
-  torbrowser
-  transmission
-  virtualbox
-  visual-studio
-  visual-studio-code
-  vivaldi
-  webstorm
   zoomus
 )
 

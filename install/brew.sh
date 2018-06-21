@@ -30,7 +30,6 @@ binaries=(
   python # python v2.7
 
   # Other
-  diff-so-fancy
   dockutil
   git
   guetzli
